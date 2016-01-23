@@ -5,6 +5,7 @@ const hostname = '127.0.0.1';
 const port = 1337;
 
 http.createServer((req, res) => {
+  console.log('got request');
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello '+ lib() + '\n' ) ;
 }).listen(port, hostname, () => {
