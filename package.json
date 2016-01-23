@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matthiasg/docker-test-main/issues"
   },
-  "homepage": "https://github.com/matthiasg/docker-test-main"
+  "homepage": "https://github.com/matthiasg/docker-test-main",
+  "dependencies": {
+    "docker-test-library": "git+https://github.com/matthiasg/docker-test-library.git"
+  }
 }
