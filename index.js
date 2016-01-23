@@ -1,7 +1,7 @@
 const http = require('http');
 const lib = require('docker-test-library');
 
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 const port = 1337;
 
 http.createServer((req, res) => {
